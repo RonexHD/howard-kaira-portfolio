@@ -59,7 +59,7 @@ function Body() {
                   </h1>
                   <br /> 
                   <Fade top >
-                    <p className='text-left mb-4 text-white' >
+                    <p className='text-left mb-4 leading-8 text-white' >
                       Skilled in creating intuitive
                       and visually appealing user interfaces for both mobile and web applications. 
                       Proficient in frontend development 
@@ -84,7 +84,7 @@ function Body() {
         <Fade bottom><SkillCard icon={bash} title='Linux System Administrator' desc='Configuring, troubleshooting and optiizing servers to ensure systems security.' /></Fade>
       </div>
       <div className='w-full lg:flex mb-4  justify-center flex flex-wrap bg-arsenic-primary '>
-        <Pulse><p className='text-left p-4 m-4 mb-4 font-bold text-sm text-white'>ACADEMIC QUALIFICATION </p> </Pulse>
+        <Pulse><p className='text-left m-4  font-bold text-sm text-white'>ACADEMIC QUALIFICATION </p> </Pulse>
         <div>
           <AcademicQualification />
         </div>
