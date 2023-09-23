@@ -3,15 +3,15 @@ import Typical from 'react-typical'
 
 function Typing() {
   return (
-    <div>
-        <h1 className='text-lg text-copper text-left ml-3 font-bold'>
+    <div className='ml-4'>
+        <h1 className='text-lg  text-copper text-left '>
             <Typical 
             loop={Infinity}
             steps={[
                 "UI/UX Designer ✨",
-                2000,
+                3000,
                 "Graphic Designer 🎨",
-                2000,
+                3000,
                 "Web Developer 👍",
                 2000,
                 "IT Service Management 💻",
@@ -23,14 +23,15 @@ function Typing() {
                 "Software Developer 🟠",
                 2000,
                 "BSC Information Systems 🎓",
+                3000,
                 "Git ⏺️",
-                2000,
+                1000,
                 "Linux Sytems ⭕",
-                2000,
+                1000,
                 "Sanity.io 🟢",
-                2000,
+                1000,
                 "MySQL 🟣",
-                2000
+                1000
             ]}
             />
             </h1>
