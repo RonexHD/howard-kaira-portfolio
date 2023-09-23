@@ -23,7 +23,6 @@ function Body() {
               <a target='_blank' href='https://instagram.com/hdronex?igshid=OGY3MTU3OGY1Mw=='><img src={instagram} alt="facebook link" className="h-6 w-6 p-1 fill-white text" /> </a>
               <a target='_blank' href='https://www.linkedin.com/in/howard-kaira-364b70233'><img src={linkedin} alt="facebook link" className="h-6 w-6 p-1 fill-white text" /> </a>
             </div>
-            
         </div>
         <div className="flex  ">
           <div className='sm:mx-3 w-full'>
@@ -58,51 +57,38 @@ function Body() {
               
               </Fade>
                 <div className='min-w-screen-sm lg:w-[40rem] mr-12 lg:mt-0 -mt-20 px-3 justify-end'>
-                      <Pulse><p className='text-left mt-4 text-white'>MY PROFILE </p> </Pulse>
-                      <br />
-                 
-                        <h1 className='text-4xl text-left text-copper'>  
-                        Information Systems Specialist | UI/UX design | Software
-                        development | IT operational support | Project management
-                        <span className='text-white  m-4 text-sm'> +MORE  </span> 
-                        </h1>
-
-                     
-                      
-                      <br /> 
-                      <Fade top >
-                        <p className='text-left mb-4 text-white' >
-                        Skilled in creating intuitive
-                        and visually appealing user interfaces for both mobile and web applications. 
-                        Proficient in frontend development 
-                        ensuring seamless integration of designs into functional applications.
-                        Well-versed in IT service management and operational support for smooth
-                        functioning of systems. Experienced in database management using MySQL, encompassing
-                        system design, implementation, and administration, including backup and recovery, user
-                        management, and data integrity. 
-                      </p>
-                      </Fade>
-                      
+                  <Pulse><p className='text-left mt-4 text-white'>MY PROFILE </p> </Pulse>
+                    <br />
+              
+                  <h1 className='text-4xl text-left text-copper'>  
+                    Information Systems Specialist | UI/UX design | Software
+                    development | IT operational support | Project management
+                    <span className='text-white  m-4 text-sm'> +MORE  </span> 
+                  </h1>
+                  <br /> 
+                  <Fade top >
+                    <p className='text-left mb-4 text-white' >
+                      Skilled in creating intuitive
+                      and visually appealing user interfaces for both mobile and web applications. 
+                      Proficient in frontend development 
+                      ensuring seamless integration of designs into functional applications.
+                      Well-versed in IT service management and operational support for smooth
+                      functioning of systems. Experienced in database management using MySQL, encompassing
+                      system design, implementation, and administration, including backup and recovery, user
+                      management, and data integrity. 
+                    </p>
+                  </Fade>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
-
         <div className='w-full lg:flex-row  gap-2 lg:flex flex-col justify-between sm:justify-center border-t border-t-copper flex'>
-         
-
-        <Fade left > <SkillCard icon={code} title='Web Developer' desc='User friendly and responsive sites' /></Fade>
-          
-        <Fade left><SkillCard icon={ui} title='UI/UX Designer' desc='Intuitive and Usable interfaces' /></Fade>
-          
-        <Fade bottom><SkillCard icon={graphic} title='Graphic Designer' desc='Over 200+ Satisfied Customers' /></Fade>
-          
-        <Fade bottom><SkillCard icon={code} title='Web Developer' desc='User friendly and responsive sites' /></Fade>
-          
+          <Fade left > <SkillCard icon={code} title='Web Developer' desc='User friendly and responsive sites' /></Fade>
+          <Fade left><SkillCard icon={ui} title='UI/UX Designer' desc='Intuitive and Usable interfaces' /></Fade>
+          <Fade bottom><SkillCard icon={graphic} title='Graphic Designer' desc='Over 200+ Satisfied Customers' /></Fade>
+          <Fade bottom><SkillCard icon={code} title='Web Developer' desc='User friendly and responsive sites' /></Fade>
         </div>
-        
     </div>
   );
 }
