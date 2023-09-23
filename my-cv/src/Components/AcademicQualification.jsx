@@ -8,7 +8,7 @@ import {
     Typography,
     
   } from "@material-tailwind/react";
-  import {  AcademicCapIcon, ArrowRightCircleIcon } from "@heroicons/react/24/solid";
+  import {  AcademicCapIcon, CheckCircleIcon } from "@heroicons/react/24/solid";
   import Fade from 'react-reveal/Fade'
   import Pulse from 'react-reveal/Pulse'
 
@@ -27,16 +27,17 @@ import {
             <TimelineConnector />
             <TimelineHeader>
               <TimelineIcon className="bg-copper p-2">
-              <ArrowRightCircleIcon className="h-4 w-4" />
+              <CheckCircleIcon className="h-4 w-4" />
               </TimelineIcon>
               <Typography variant="h5" className="text-copper">
                 FOURTH YEAR
               </Typography>
             </TimelineHeader>
             <TimelineBody className="pb-8">
-              <Fade right >
+              <Fade bottom >
                 <Typography color="gary" className="font-normal leading-10 text-left text-white">
-                <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '> ICT Project  </span>     
+                  Strategic Business and IS Management
+                  <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '> ICT Project  </span>     
                   Information Technology Audit and Controls      
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Mobile Applications Development</span>   
                       Information Technology Practice and Consultancy       
@@ -44,7 +45,7 @@ import {
                   Internet Governance
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Geospatial Computing </span>      Cloud Computing 
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Research Methods and Ethics in Computing</span>       
-                  Strategic Business and IS Management
+                  
                 </Typography>
               </Fade>
             </TimelineBody>
@@ -53,15 +54,16 @@ import {
             <TimelineConnector />
             <TimelineHeader>
               <TimelineIcon className="bg-copper p-2">
-              <ArrowRightCircleIcon className="h-4 w-4" />
+              <CheckCircleIcon className="h-4 w-4" />
               </TimelineIcon>
               <Typography variant="h5" className=" text-copper">
                 THIRD YEAR
               </Typography>
             </TimelineHeader>
             <TimelineBody className="pb-8">
-              <Fade right>
+              <Fade bottom>
                 <Typography color="gary" className="font-normal leading-10 text-left text-white">
+                  Object-Oriented Systems Analysis and Design
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '> Information Technology Service Management</span> Management Support Systems
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Software
                   Engineering </span>  Entrepreneurship – Theory and Practice 
@@ -69,7 +71,7 @@ import {
                   Information Management for Business 
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Computer Security</span> 
                   Computer Networks <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Linux
-                  Systems Administration</span> Object-Oriented Systems Analysis and Design
+                  Systems Administration</span> 
                 </Typography>
               </Fade>
             </TimelineBody>
@@ -78,14 +80,14 @@ import {
           <TimelineConnector color="" />
             <TimelineHeader>
               <TimelineIcon className="bg-copper p-2">
-              <ArrowRightCircleIcon className="h-4 w-4" />
+              <CheckCircleIcon className="h-4 w-4" />
               </TimelineIcon>
               <Typography variant="h5" className="text-copper">
                 SECOND YEAR
               </Typography>
             </TimelineHeader>
             <TimelineBody className="pb-8">
-              <Fade right>
+              <Fade bottom>
                 <Typography color="gary" className="font-normal leading-10 text-left text-white">
                   Foundations of Information Systems 
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Web Design and Development</span> 
@@ -104,14 +106,14 @@ import {
           <TimelineItem>
             <TimelineHeader>
               <TimelineIcon className="bg-copper p-2">
-                <ArrowRightCircleIcon className="h-4 w-4" />
+                <CheckCircleIcon className="h-4 w-4" />
               </TimelineIcon>
               <Typography variant="h5" className="text-copper">
                 FIRST YEAR
               </Typography>
             </TimelineHeader>
             <TimelineBody>
-              <Fade right >
+              <Fade bottom >
                 <Typography color="gary" className="font-normal leading-10 text-left text-white">
                   Introduction to Computer Science 
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Introduction to Computer Programming </span>
