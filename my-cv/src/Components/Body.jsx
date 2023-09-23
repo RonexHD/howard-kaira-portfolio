@@ -71,7 +71,7 @@ function Body() {
           </div>
         </div>
       </div>
-        <div className='w-full   gap-2 lg:flex lg:justify-between justify-center flex-wrap border-t border-t-copper flex'>
+        <div className='w-full   gap-2 lg:flex  justify-center flex-wrap border-t border-t-copper flex'>
           <Fade left><SkillCard icon={ui} title='UI/UX Designer' desc='Intuitive and Usable interfaces for mobile & web applications' /></Fade>
           <Fade bottom><SkillCard icon={graphic} title='Graphic Designer' desc='Using Photoshop, Illustrator, and Afinity Publisher' /></Fade>
           <Fade left > <SkillCard icon={code} title='Web Developer' desc='User friendly and responsive sites' /></Fade>
