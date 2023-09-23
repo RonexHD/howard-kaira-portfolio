@@ -71,10 +71,15 @@ function Body() {
           </div>
         </div>
       </div>
-        <div className='w-full lg:flex-row  gap-2 lg:flex flex-col justify-between sm:justify-center border-t border-t-copper flex'>
-          <Fade left > <SkillCard icon={code} title='Web Developer' desc='User friendly and responsive sites' /></Fade>
+        <div className='w-full   gap-2 lg:flex lg:justify-between justify-center flex-wrap border-t border-t-copper flex'>
           <Fade left><SkillCard icon={ui} title='UI/UX Designer' desc='Intuitive and Usable interfaces for mobile & web applications' /></Fade>
           <Fade bottom><SkillCard icon={graphic} title='Graphic Designer' desc='Using Photoshop, Illustrator, and Afinity Publisher' /></Fade>
+          <Fade left > <SkillCard icon={code} title='Web Developer' desc='User friendly and responsive sites' /></Fade>
+
+         <Fade bottom><SkillCard icon={it} title='Project Management' desc='Planning, executing, and overseeing IT projects in time and budget' /></Fade>
+          <Fade bottom><SkillCard icon={it} title='Project Management' desc='Planning, executing, and overseeing IT projects in time and budget' /></Fade>
+          <Fade bottom><SkillCard icon={it} title='Project Management' desc='Planning, executing, and overseeing IT projects in time and budget' /></Fade>
+
           <Fade bottom><SkillCard icon={it} title='Project Management' desc='Planning, executing, and overseeing IT projects in time and budget' /></Fade>
         </div>
     </div>
