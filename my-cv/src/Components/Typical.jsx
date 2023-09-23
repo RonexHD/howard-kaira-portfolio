@@ -26,7 +26,7 @@ function Typing() {
                 3000,
                 "Git ⏺️",
                 1000,
-                "Linux Sytems ⭕",
+                "Linux Sytems Admin ⭕",
                 1000,
                 "Sanity.io 🟢",
                 1000,

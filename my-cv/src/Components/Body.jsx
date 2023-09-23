@@ -12,6 +12,8 @@ import code from '../Assets/code.svg'
 import cv from '../Assets/file-cv.svg'
 import SkillCard from './SkillCard';
 import it from '../Assets/it.svg'
+import database from '../Assets/database.svg'
+import bash from '../Assets/bash.svg'
 
 function Body() {
   return (
@@ -74,13 +76,10 @@ function Body() {
         <div className='w-full   gap-2 lg:flex  justify-center flex-wrap border-t border-t-copper flex'>
           <Fade left><SkillCard icon={ui} title='UI/UX Designer' desc='Intuitive and Usable interfaces for mobile & web applications' /></Fade>
           <Fade bottom><SkillCard icon={graphic} title='Graphic Designer' desc='Using Photoshop, Illustrator, and Afinity Publisher' /></Fade>
-          <Fade left > <SkillCard icon={code} title='Web Developer' desc='User friendly and responsive sites' /></Fade>
-
-         <Fade bottom><SkillCard icon={it} title='Project Management' desc='Planning, executing, and overseeing IT projects in time and budget' /></Fade>
+          <Fade left > <SkillCard icon={code} title='Web Developer' desc='Designing coding, and building user friendly and responsive websites' /></Fade>
           <Fade bottom><SkillCard icon={it} title='Project Management' desc='Planning, executing, and overseeing IT projects in time and budget' /></Fade>
-          <Fade bottom><SkillCard icon={it} title='Project Management' desc='Planning, executing, and overseeing IT projects in time and budget' /></Fade>
-
-          <Fade bottom><SkillCard icon={it} title='Project Management' desc='Planning, executing, and overseeing IT projects in time and budget' /></Fade>
+          <Fade bottom><SkillCard icon={database} title='Dabase Administrator' desc='Managing and Maintaining databases to ensure data integrity and security' /></Fade>
+          <Fade bottom><SkillCard icon={bash} title='Linux System Administrator' desc='Configuring, troubleshooting and optiizing servers to ensure systems security.' /></Fade>
         </div>
     </div>
   );
