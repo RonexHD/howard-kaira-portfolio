@@ -7,28 +7,30 @@ import {
     TimelineBody,
     Typography,
   } from "@material-tailwind/react";
-  import { HomeIcon, BellIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
+  import { HomeIcon, BellIcon, CurrencyDollarIcon, ArrowLeftIcon, ArrowSmallRightIcon, ArrowRightCircleIcon } from "@heroicons/react/24/solid";
    
   export function AcademicQualification() {
     return (
       <div className=" p-4 m-4 mb-4 flex max-w-[42rem]">
         <Timeline>
+          <h1 className="text-white text-start text-2xl pb-1 ">Bachelor of Science in Information Systems (CREDIT)</h1>
+          <h3 className="text-sm font-bold pb-4 text-copper text-start"> UNIVERSITY OF MALAWI | 2018 - 2023. </h3>
           <TimelineItem>
             <TimelineConnector />
             <TimelineHeader>
               <TimelineIcon className="p-2">
-                <HomeIcon className="h-4 w-4" />
+              <ArrowRightCircleIcon className="h-4 w-4" />
               </TimelineIcon>
               <Typography variant="h5" className="text-copper">
-                Timeline Title Here.
+                FOURTH YEAR
               </Typography>
             </TimelineHeader>
             <TimelineBody className="pb-8">
               <Typography color="gary" className="font-normal text-left text-white">
-                The key to more success is to have a lot of pillows. Put it this way, it took me
-                twenty five years to get these plants, twenty five years of blood sweat and tears, and
-                I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-                luv.
+                ICT Project   |   Information Technology Audit and Controls   |   Mobile Applications Development   |
+                    Information Technology Practice and Consultancy   |    Project Management   |    Internet Governance
+                | Geospatial Computing    |   Cloud Computing Research Methods and Ethics in Computing    |   
+                Strategic Business and IS Management
               </Typography>
             </TimelineBody>
           </TimelineItem>
@@ -36,36 +38,54 @@ import {
             <TimelineConnector />
             <TimelineHeader>
               <TimelineIcon className="p-2">
-                <BellIcon className="h-4 w-4" />
+              <ArrowRightCircleIcon className="h-4 w-4" />
               </TimelineIcon>
               <Typography variant="h5" className=" text-copper">
-                Timeline Title Here.
+                THIRD YEAR
               </Typography>
             </TimelineHeader>
             <TimelineBody className="pb-8">
               <Typography color="gary" className="font-normal text-left text-white">
-                The key to more success is to have a lot of pillows. Put it this way, it took me
-                twenty five years to get these plants, twenty five years of blood sweat and tears, and
-                I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-                luv.
+                Information Technology Service Management Management Support Systems Software
+                Engineering Entrepreneurship – Theory and Practice Human Computer Interaction
+                Information Management for Business Computer Security Computer Networks Linux
+                Systems Administration Object-Oriented Systems Analysis and Design
+              </Typography>
+            </TimelineBody>
+          </TimelineItem>
+          <TimelineItem>
+          <TimelineConnector />
+            <TimelineHeader>
+              <TimelineIcon className="p-2">
+              <ArrowRightCircleIcon className="h-4 w-4" />
+              </TimelineIcon>
+              <Typography variant="h5" className="text-copper">
+                SECOND YEAR
+              </Typography>
+            </TimelineHeader>
+            <TimelineBody className="pb-8">
+              <Typography color="gary" className="font-normal text-left text-white">
+                Foundations of Information Systems Web Design and Development E-Business Techniques
+                Enterprise Architecture Operating Systems Advanced Computer Programming Database
+                Systems Foundation of Probability and Statistics Statistical Hypothesis Testing Introduction
+                to Mathematical Computing
               </Typography>
             </TimelineBody>
           </TimelineItem>
           <TimelineItem>
             <TimelineHeader>
               <TimelineIcon className="p-2">
-                <CurrencyDollarIcon className="h-4 w-4" />
+                <ArrowRightCircleIcon className="h-4 w-4" />
               </TimelineIcon>
               <Typography variant="h5" className="text-copper">
-                Timeline Title Here.
+                FIRST YEAR
               </Typography>
             </TimelineHeader>
             <TimelineBody>
               <Typography color="gary" className="font-normal text-left text-white">
-                The key to more success is to have a lot of pillows. Put it this way, it took me
-                twenty five years to get these plants, twenty five years of blood sweat and tears, and
-                I&apos;m never giving up, I&apos;m just getting started. I&apos;m up to something. Fan
-                luv.
+                Introduction to Computer Science Introduction to Computer Programming College Algebra
+                Trigonometry and Elementary Calculus The Statistical System Language and Communication
+                Skills Contemporary Human Geography
               </Typography>
             </TimelineBody>
           </TimelineItem>
