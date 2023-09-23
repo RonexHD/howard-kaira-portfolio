@@ -15,6 +15,7 @@ import it from '../Assets/it.svg'
 import database from '../Assets/database.svg'
 import bash from '../Assets/bash.svg'
 import {FloatSpeedDial} from '../Components/Floating'
+import { AcademicQualification } from './AcademicQualification';
 
 function Body() {
   return (
@@ -82,10 +83,10 @@ function Body() {
         <Fade bottom><SkillCard icon={database} title='Dabase Administrator' desc='Managing and Maintaining databases to ensure data integrity and security' /></Fade>
         <Fade bottom><SkillCard icon={bash} title='Linux System Administrator' desc='Configuring, troubleshooting and optiizing servers to ensure systems security.' /></Fade>
       </div>
-      <div className='w-full lg:flex mb-4 justify-center flex flex-wrap bg-arsenic-primary h-7'>
-        <Pulse><p className='text-left m-4 mb-4 font-bold text-sm text-white'>ACADEMIC QUALIFICATION </p> </Pulse>
+      <div className='w-full lg:flex mb-4  justify-center flex flex-wrap bg-arsenic-primary '>
+        <Pulse><p className='text-left p-4 m-4 mb-4 font-bold text-sm text-white'>ACADEMIC QUALIFICATION </p> </Pulse>
         <div>
-
+          <AcademicQualification />
         </div>
       </div>
       <FloatSpeedDial />
