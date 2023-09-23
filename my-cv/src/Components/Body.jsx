@@ -29,7 +29,7 @@ function Body() {
           <div className='sm:mx-3 w-full'>
             <div className=' flex w-full lg:flex-row  gap-6 lg:flex flex-col justify-between '>
               <div className='min-w-[16rem]'>
-                <h1 className="text-5xl text-left border-t-4 border-copper font-bold text-white m-4">Howard <br /> Kaira<span className='text-copper'>.</span></h1>
+                <h1 className="text-5xl text-left border-t-2 border-copper pt-3 font-bold text-white m-4">Howard <br /> Kaira<span className='text-copper'>.</span></h1>
                   <Typing />
                   <Fade left>
                     <a href='Howard Kaira CV.pdf'  download='Howard Kaira CV'>
