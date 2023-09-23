@@ -14,6 +14,7 @@ import SkillCard from './SkillCard';
 import it from '../Assets/it.svg'
 import database from '../Assets/database.svg'
 import bash from '../Assets/bash.svg'
+import {FloatSpeedDial} from '../Components/Floating'
 
 function Body() {
   return (
@@ -47,7 +48,7 @@ function Body() {
                   <Fade top> <img src={image} alt='my image' className='h-[25rem] w-[25rem] aspect-ratio-1/1 border-b-4 lg:mt-0    rounded-lg bg-arsenic-secondary border-copper '/> </Fade>
               </div>
                 <div className='min-w-screen-sm lg:w-[40rem] mr-12 lg:mt-0  px-3 justify-end'>
-                  <Pulse><p className='text-left mt-4 text-white'>MY PROFILE </p> </Pulse>
+                  <Pulse><p className='text-left mt-4 font-bold text-sm text-white'>MY PROFILE </p> </Pulse>
                     <br />
               
                   <h1 className='text-4xl text-left text-copper'>  
@@ -73,14 +74,21 @@ function Body() {
           </div>
         </div>
       </div>
-        <div className='w-full   gap-2 lg:flex  justify-center flex-wrap border-t border-t-copper flex'>
-          <Fade left><SkillCard icon={ui} title='UI/UX Designer' desc='Intuitive and Usable interfaces for mobile & web applications' /></Fade>
-          <Fade bottom><SkillCard icon={graphic} title='Graphic Designer' desc='Using Photoshop, Illustrator, and Afinity Publisher' /></Fade>
-          <Fade left > <SkillCard icon={code} title='Web Developer' desc='Designing coding, and building user friendly and responsive websites' /></Fade>
-          <Fade bottom><SkillCard icon={it} title='Project Management' desc='Planning, executing, and overseeing IT projects in time and budget' /></Fade>
-          <Fade bottom><SkillCard icon={database} title='Dabase Administrator' desc='Managing and Maintaining databases to ensure data integrity and security' /></Fade>
-          <Fade bottom><SkillCard icon={bash} title='Linux System Administrator' desc='Configuring, troubleshooting and optiizing servers to ensure systems security.' /></Fade>
+      <div className='w-full mb-4 gap-2 lg:flex  justify-center flex-wrap border-t border-t-copper flex'>
+        <Fade left><SkillCard icon={ui} title='UI/UX Designer' desc='Intuitive and Usable interfaces for mobile & web applications' /></Fade>
+        <Fade bottom><SkillCard icon={graphic} title='Graphic Designer' desc='Using Photoshop, Illustrator, and Afinity Publisher' /></Fade>
+        <Fade left > <SkillCard icon={code} title='Web Developer' desc='Designing coding, and building user friendly and responsive websites' /></Fade>
+        <Fade bottom><SkillCard icon={it} title='Project Management' desc='Planning, executing, and overseeing IT projects in time and budget' /></Fade>
+        <Fade bottom><SkillCard icon={database} title='Dabase Administrator' desc='Managing and Maintaining databases to ensure data integrity and security' /></Fade>
+        <Fade bottom><SkillCard icon={bash} title='Linux System Administrator' desc='Configuring, troubleshooting and optiizing servers to ensure systems security.' /></Fade>
+      </div>
+      <div className='w-full lg:flex mb-4 justify-center flex flex-wrap bg-arsenic-primary h-7'>
+        <Pulse><p className='text-left m-4 mb-4 font-bold text-sm text-white'>ACADEMIC QUALIFICATION </p> </Pulse>
+        <div>
+
         </div>
+      </div>
+      <FloatSpeedDial />
     </div>
   );
 }
