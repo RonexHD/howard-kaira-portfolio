@@ -8,13 +8,13 @@ import {
     Typography,
     
   } from "@material-tailwind/react";
-  import {  AcademicCapIcon, CheckCircleIcon } from "@heroicons/react/24/solid";
+  import {  AcademicCapIcon, CheckCircleIcon, ClipboardDocumentCheckIcon, DocumentIcon } from "@heroicons/react/24/solid";
   import Fade from 'react-reveal/Fade'
   import Pulse from 'react-reveal/Pulse'
 
   export function AcademicQualification() {
     return (
-      <div className=" p-4 m-4 mb-4 flex max-w-[42rem]">
+      <div className=" p-2  mb-2 flex max-w-[42rem]">
         <Timeline>
           <div className="flex-row flex text-white">
             <AcademicCapIcon className="h-8 pb-1 mr-2 w-8"/> 
@@ -22,7 +22,7 @@ import {
             <span className='bg-copper bg-opacity-50 font-bold text-sm mx-2 p-1 rounded-lg  '>CREDIT</span></h1>
 
           </div>
-          <h3 className="text-sm font-bold pb-4 text-copper text-start"> UNIVERSITY OF MALAWI | 2018 - 2023. </h3>
+          <h3 className="text-sm font-bold pb-4 ml-10 text-copper text-start"> UNIVERSITY OF MALAWI | 2018 - 2023. </h3>
           <TimelineItem>
             <TimelineConnector />
             <TimelineHeader>
@@ -119,13 +119,25 @@ import {
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Introduction to Computer Programming </span>
                   College Algebra
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Trigonometry and Elementary Calculus </span>
-                  The Statistical System Language and Communication
-                  <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Skills Contemporary Human Geography</span>
+                  The Statistical System 
+                  <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Language and Communication Skills </span>
+                  Contemporary Human Geography
                 </Typography>
               </Fade>
             </TimelineBody>
           </TimelineItem>
+          <div className="bg-arsenic-secondary p-2 mt-10 rounded-lg">
+            <div className="flex-row  flex text-white">
+              <DocumentIcon className="h-8 pb-1 mr-2 w-8"/> 
+              <h1 className="text-white text-start text-2xl pb-1  ">Malawi School Certificate of Education  
+              <span className='bg-copper bg-opacity-50 font-bold text-sm mx-2 p-1 rounded-lg  '>MSCE</span></h1>
+            </div>
+            <h3 className="text-sm font-bold pb-4 ml-10 text-copper text-start"> MARANATHA ACADEMY | 2017 
+            <span className='bg-copper bg-opacity-50 font-bold  text-white text-xs mx-2 p-1 rounded-lg  '>12 POINTS AGGREGATE</span> </h3>
+          </div>
+          
         </Timeline>
+        
       </div>
     );
   }

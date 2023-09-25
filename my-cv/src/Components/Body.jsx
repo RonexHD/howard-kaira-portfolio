@@ -16,6 +16,9 @@ import database from '../Assets/database.svg'
 import bash from '../Assets/bash.svg'
 import {FloatSpeedDial} from '../Components/Floating'
 import { AcademicQualification } from './AcademicQualification';
+import { Experiece } from './Experience';
+import uchikumbe from '../Assets/uchikumbe cover.jpg'
+import infographix from '../Assets/infographics .jpg'
 
 function Body() {
   return (
@@ -83,11 +86,32 @@ function Body() {
         <Fade bottom><SkillCard icon={database} title='Dabase Administrator' desc='Managing and Maintaining databases to ensure data integrity and security' /></Fade>
         <Fade bottom><SkillCard icon={bash} title='Linux System Administrator' desc='Configuring, troubleshooting and optiizing servers to ensure systems security.' /></Fade>
       </div>
-      <div className='w-full lg:flex mb-4  justify-center flex flex-wrap bg-arsenic-primary '>
-        <Pulse><p className='text-left m-4  font-bold text-sm text-white'>ACADEMIC QUALIFICATION </p> </Pulse>
+      <div className='w-full  lg:flex p-4 mt-10 justify-center flex flex-wrap bg-arsenic-primary '>
+        <Pulse><p className='text-left mt-4 mr-4 font-bold text-sm text-white'>ACADEMIC QUALIFICATION </p> </Pulse>
         <div>
           <AcademicQualification />
         </div>
+      </div>
+      <div className='w-full mb-4 gap-2 lg:flex  justify-center flex-wrap border-t border-t-copper flex'>
+        <Experiece 
+        image={uchikumbe} 
+        title="Developed Uchikumbe " 
+        desc="A Malawian Agricultural Platform developed with React, Tailwind, and Sanity.io"
+        text="uchikumbe.vercel.app"
+        link="http://www.uchikumbe.vercel.app"
+        />  
+        <Experiece 
+        image={infographix}
+        title='Graphic Designing'
+        desc='Posters, Logos, Banners, Fliers, Cards, Certificates and many more  From 2017 - Present'
+        text='✨ Portfolio Coming soon!'
+        />      
+        <Experiece 
+        image={infographix}
+        title='UI/UX Designing'
+        desc='Intuitive and Usable interfaces for mobile & web applications  From 2017 - Present'
+        text='✨ Portfolio Coming soon!'
+        />      
       </div>
       <FloatSpeedDial />
     </div>
