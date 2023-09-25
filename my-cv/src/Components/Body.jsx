@@ -98,7 +98,7 @@ function Body() {
         title="Developed Uchikumbe " 
         desc="A Malawian Agricultural Platform developed with React, Tailwind, and Sanity.io"
         text="uchikumbe.vercel.app"
-        link="http://www.uchikumbe.vercel.app"
+        link="https://www.uchikumbe.vercel.app"
         />  
         <Experiece 
         image={infographix}
