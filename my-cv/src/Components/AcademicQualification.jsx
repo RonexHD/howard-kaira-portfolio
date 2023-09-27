@@ -35,7 +35,7 @@ import {
             </TimelineHeader>
             <TimelineBody className="pb-8">
               <Fade bottom >
-                <Typography color="gary" className="font-normal leading-10 text-left text-white">
+                <Typography  className="font-normal leading-10 text-left text-white">
                   Strategic Business and IS Management
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '> ICT Project  </span>     
                   Information Technology Audit and Controls      
@@ -62,7 +62,7 @@ import {
             </TimelineHeader>
             <TimelineBody className="pb-8">
               <Fade bottom>
-                <Typography color="gary" className="font-normal leading-10 text-left text-white">
+                <Typography className="font-normal leading-10 text-left text-white">
                   Object-Oriented Systems Analysis and Design
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '> Information Technology Service Management</span> Management Support Systems
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Software
@@ -88,7 +88,7 @@ import {
             </TimelineHeader>
             <TimelineBody className="pb-8">
               <Fade bottom>
-                <Typography color="gary" className="font-normal leading-10 text-left text-white">
+                <Typography className="font-normal leading-10 text-left text-white">
                   Foundations of Information Systems 
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Web Design and Development</span> 
                   E-Business Techniques
@@ -114,7 +114,7 @@ import {
             </TimelineHeader>
             <TimelineBody>
               <Fade bottom >
-                <Typography color="gary" className="font-normal leading-10 text-left text-white">
+                <Typography  className="font-normal leading-10 text-left text-white">
                   Introduction to Computer Science 
                   <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Introduction to Computer Programming </span>
                   College Algebra
@@ -126,15 +126,18 @@ import {
               </Fade>
             </TimelineBody>
           </TimelineItem>
-          <div className="bg-arsenic-secondary p-2 mt-10 rounded-lg">
-            <div className="flex-row  flex text-white">
-              <DocumentIcon className="h-8 pb-1 mr-2 w-8"/> 
-              <h1 className="text-white text-start text-2xl pb-1  ">Malawi School Certificate of Education  
-              <span className='bg-copper bg-opacity-50 font-bold text-sm mx-2 p-1 rounded-lg  '>MSCE</span></h1>
+          <Fade bottom>
+            <div className="bg-arsenic-secondary p-2 mt-10 rounded-lg">
+              <div className="flex-row  flex text-white">
+                <DocumentIcon className="h-8 pb-1 mr-2 w-8"/> 
+                <h1 className="text-white text-start text-2xl pb-1  ">Malawi School Certificate of Education  
+                <span className='bg-copper bg-opacity-50 font-bold text-sm mx-2 p-1 rounded-lg  '>MSCE</span></h1>
+              </div>
+              <h3 className="text-sm font-bold pb-4 ml-10 text-copper text-start"> MARANATHA ACADEMY | 2017 
+              <span className='bg-copper bg-opacity-50 font-bold  text-white text-xs mx-2 p-1 rounded-lg  '>12 POINTS AGGREGATE</span> </h3>
             </div>
-            <h3 className="text-sm font-bold pb-4 ml-10 text-copper text-start"> MARANATHA ACADEMY | 2017 
-            <span className='bg-copper bg-opacity-50 font-bold  text-white text-xs mx-2 p-1 rounded-lg  '>12 POINTS AGGREGATE</span> </h3>
-          </div>
+          </Fade>
+          
           
         </Timeline>
         

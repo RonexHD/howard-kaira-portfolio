@@ -16,9 +16,12 @@ import database from '../Assets/database.svg'
 import bash from '../Assets/bash.svg'
 import {FloatSpeedDial} from '../Components/Floating'
 import { AcademicQualification } from './AcademicQualification';
-import { Experiece } from './Experience';
+import Experience from '../Components/Experience';
 import uchikumbe from '../Assets/uchikumbe cover.jpg'
 import infographix from '../Assets/infographics .jpg'
+import { Carousel } from '@material-tailwind/react';
+import bg from '../Assets/bg.jpg'
+import bg2 from '../Assets/bg2.jpg'
 
 function Body() {
   return (
@@ -87,31 +90,55 @@ function Body() {
         <Fade bottom><SkillCard icon={bash} title='Linux System Administrator' desc='Configuring, troubleshooting and optiizing servers to ensure systems security.' /></Fade>
       </div>
       <div className='w-full  lg:flex p-4 mt-10 justify-center flex flex-wrap bg-arsenic-primary '>
-        <Pulse><p className='text-left mt-4 mr-4 font-bold text-sm text-white'>ACADEMIC QUALIFICATION </p> </Pulse>
+        <Fade left><p className='text-left mt-4 mr-4 font-bold text-sm text-white'>ACADEMIC QUALIFICATION </p> </Fade>
         <div>
           <AcademicQualification />
         </div>
       </div>
       <div className='w-full mb-4 gap-2 lg:flex  justify-center flex-wrap border-t border-t-copper flex'>
-        <Experiece 
-        image={uchikumbe} 
-        title="Developed Uchikumbe " 
-        desc="A Malawian Agricultural Platform developed with React, Tailwind, and Sanity.io"
-        text="uchikumbe.vercel.app"
-        link="http://www.uchikumbe.vercel.app"
-        />  
-        <Experiece 
-        image={infographix}
-        title='Graphic Designing'
-        desc='Posters, Logos, Banners, Fliers, Cards, Certificates and many more  From 2017 - Present'
-        text='✨ Portfolio Coming soon!'
-        />      
-        <Experiece 
-        image={infographix}
-        title='UI/UX Designing'
-        desc='Intuitive and Usable interfaces for mobile & web applications  From 2017 - Present'
-        text='✨ Portfolio Coming soon!'
-        />      
+      <Fade right ><p className='text-left mt-4 mr-4 s font-bold text-sm text-white'>EXPERIENCE </p> </Fade>
+      <Fade bottom>
+        <Carousel 
+        autoplay 
+        loop  
+        autoplayDelay={4000} 
+        className="rounded-xl
+        ">          
+            <Experience 
+            image={uchikumbe} 
+            title="Developed Uchikumbe " 
+            desc="A Malawian Agricultural Platform developed with React, Tailwind, and Sanity.io"
+            text="uchikumbe.vercel.app"
+            link="http://www.uchikumbe.vercel.app"
+            />  
+            <Experience 
+            image={infographix}
+            title='Graphic Designing'
+            desc='Posters, Logos, Banners, Fliers, Cards, Certificates and many more  From 2017 - Present'
+            text='✨ Portfolio Coming soon!'
+            />  
+      
+            <Experience 
+            image={infographix}
+            title='UI/UX Designing'
+            desc='Intuitive and Usable interfaces for mobile & web applications  From 2017 - Present'
+            text='✨ Portfolio Coming soon!'
+            />   
+
+            <Experience 
+            image={bg}
+            title='Computer Studies Teacher '
+            desc='Faith Private Secondary School: 2022 (Form 1-4)'
+            />    
+            <Experience 
+            image={bg2}
+            title='Developed this Portfolio '
+            desc='With React and tailwind, focussing on the aesthetics and intuitiveness'
+            />    
+    
+        </Carousel>
+      </Fade>
+        
       </div>
       <FloatSpeedDial />
     </div>
