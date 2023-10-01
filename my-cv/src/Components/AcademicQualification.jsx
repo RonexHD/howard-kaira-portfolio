@@ -8,9 +8,10 @@ import {
     Typography,
     
   } from "@material-tailwind/react";
-  import {  AcademicCapIcon, CheckCircleIcon, ClipboardDocumentCheckIcon, DocumentIcon } from "@heroicons/react/24/solid";
+  import {  AcademicCapIcon, CheckBadgeIcon, CheckCircleIcon, ClipboardDocumentCheckIcon, DocumentIcon } from "@heroicons/react/24/solid";
   import Fade from 'react-reveal/Fade'
   import Pulse from 'react-reveal/Pulse'
+  import badge from '../Assets/badge.png'
 
   export function AcademicQualification() {
     return (
@@ -135,6 +136,29 @@ import {
               </div>
               <h3 className="text-sm font-bold pb-4 ml-10 text-copper text-start"> MARANATHA ACADEMY | 2017 
               <span className='bg-copper bg-opacity-50 font-bold  text-white text-xs mx-2 p-1 rounded-lg  '>12 POINTS AGGREGATE</span> </h3>
+            </div>
+          </Fade>
+          <Fade bottom>
+            <div className="bg-arsenic-secondary p-2 mt-10 rounded-lg">
+              <div className="flex-row  flex text-white">
+                <CheckBadgeIcon className="h-8 pb-1 mr-2 w-8"/> 
+                <h1 className="text-white text-start text-2xl pb-1  ">Introduction to Cybersecurity  </h1>
+              </div>
+              <h3 className="text-sm  font-bold pb-4 ml-10 text-copper text-start"> Cisco Networking Academy </h3>
+              <div className=" flex gap-2">
+                <a 
+                target="blank" 
+                className="h-36 w-36 transition-all duration-500 hover:scale-95" 
+                href="https://www.credly.com/badges/1fe31734-a7ed-4dd0-9e22-d0a523dee52c">
+                  <img src={badge} alt="cisco-badge" className="" /> 
+                </a>
+                
+                <p className="text-white leading-10 text-left">Cyber Best Practices 
+              <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Cybersecurity Network Vulnerabilities </span>
+                Privacy and Data Confidentiality 
+                <span className='bg-copper bg-opacity-30 mx-2 p-1 rounded-lg  '>Threat Detection</span></p>
+              </div>
+              
             </div>
           </Fade>
           

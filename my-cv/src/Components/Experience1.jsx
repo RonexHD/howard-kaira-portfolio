@@ -7,7 +7,7 @@ import {
   } from "@material-tailwind/react";
    
   export function Experiece(props) {
-    const {image, title, desc, link, text} = props;
+    const {image, title, desc, link, portfolio_txt, text} = props;
     return (
       <Card className="max-w-[24rem] m-4 shadow-2xl border-copper border-2 overflow-hidden">
         <CardHeader
@@ -31,7 +31,7 @@ import {
         </CardBody>
         <CardFooter className="flex bg-arsenic-secondary justify-center">
 
-          <Typography className="font-normal text-blue-400 hover:text-copper  } ">
+          <Typography className="font-normal text-blue-400 bg-white hover:text-copper  } ">
             <a href={link} target="blank">{text} </a>
           </Typography>
         </CardFooter>

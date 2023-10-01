@@ -3,7 +3,7 @@ import {  Typography } from "@material-tailwind/react";
 
 
 function Experience(props) {
-    const {image, title, desc, link, text} = props;
+    const {image, title, desc, link, text_2, text} = props;
 
   return (
     <div className="relative h-full w-full">
@@ -29,8 +29,9 @@ function Experience(props) {
           {desc}
         </Typography>
         <div className="flex justify-center gap-2">
-        <Typography className="font-normal text-blue-400 hover:text-copper  } ">
-            <a href={link} target="blank">{text} </a>
+        <Typography className="font-normal text-white hover:text-copper  } ">
+            <a href={link} target="blank" className=' bg-white  transition-all duration-500 hover:scale-95 p-2 rounded-full bg-opacity-25'>{text} </a>
+            {/* <h2 className=' bg-white  p-2 rounded-full opacity-70'>{text_2}</h2> */}
           </Typography>
         </div>
       </div>

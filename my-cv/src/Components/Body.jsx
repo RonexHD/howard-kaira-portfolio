@@ -98,12 +98,12 @@ function Body() {
       <div className='w-full mb-4 gap-2 lg:flex  justify-center flex-wrap border-t border-t-copper flex'>
       <Fade right ><p className='text-left mt-4 mr-4 s font-bold text-sm text-white'>EXPERIENCE </p> </Fade>
       <Fade bottom>
-        <Carousel 
+        <Carousel
         autoplay 
         loop  
         autoplayDelay={4000} 
-        className="rounded-xl
-        ">          
+        className="rounded-xl border-b-8 mt-8 border-copper  sm:w-[40rem] lg:w-[60rem]"
+        >          
             <Experience 
             image={uchikumbe} 
             title="Developed Uchikumbe " 
