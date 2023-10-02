@@ -35,9 +35,9 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className='mt-10 bg-arsenic-primary w-96 justify-center p-6 rounded-xl '>
+    <div className='mt-10 bg-arsenic-primary w-96 justify-center p-6 rounded-3xl '>
       {alert.visible && (
-        <div className={`  bg-${alert.message.includes('success') ? 'green' : 'red'}-100 border border-${alert.message.includes('success') ? 'green' : 'red'}-400 text-${alert.message.includes('success') ? 'green' : 'red'}-700 px-4 py-3 rounded relative mb-4`}>
+        <div className={` bg-white bg-${alert.message.includes('success') ? 'green' : 'red'}-100 border border-${alert.message.includes('success') ? 'green' : 'red'}-400 text-${alert.message.includes('success') ? 'green' : 'red'}-700 px-4 py-3 rounded-xl relative mb-4`}>
           <strong className="font-bold">{alert.message}</strong>
           <span
             className="absolute top-0 bottom-0 right-0 px-4 py-3 cursor-pointer"
@@ -51,7 +51,7 @@ export const ContactUs = () => {
             >
               <title>Close</title>
               <path
-                d="M14.348 5.652a.5.5 0 01.708 0l4 4a.5.5 0 11-.708.708l-4-4a.5.5 0 010-.708l4-4a.5.5 0 11.708.708l-4 4z"
+                // d="M14.348 5.652a.5.5 0 01.708 0l4 4a.5.5 0 11-.708.708l-4-4a.5.5 0 010-.708l4-4a.5.5 0 11.708.708l-4 4z"
               />
               <path
                 fillRule="evenodd"
@@ -62,14 +62,14 @@ export const ContactUs = () => {
           </span>
         </div>
       )}
-
-      <form ref={form} onSubmit={sendEmail} className="w-full mx-auto">
+        <h1 className='text-copper text-3xl font-bold p-4 mb-4'>Send me an email!</h1>
+      <form ref={form} onSubmit={sendEmail} className="w-full rounded-xl p-4 border border-copper mx-auto">
         <div className="mb-4">
           <label className="block text-white text-sm font-bold mb-2" htmlFor="user_name">
             Your Name
           </label>
           <input
-            className="appearance-none border transition-all duration-500 hover:scale-95  rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:border-copper"
+            className="appearance-none border  text-white bg-transparent  transition-all duration-500 hover:scale-95  rounded-xl w-full py-2 px-3 leading-tight focus:outline-none focus:border-copper"
             id="user_name"
             type="text"
             name="user_name"
@@ -80,7 +80,7 @@ export const ContactUs = () => {
             Your Email
           </label>
           <input
-            className="appearance-none border transition-all duration-500 hover:scale-95  rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:border-copper"
+            className="appearance-none border text-white bg-transparent  transition-all duration-500 hover:scale-95  rounded-xl w-full py-2 px-3  leading-tight focus:outline-none focus:border-copper"
             id="user_email"
             type="email"
             name="user_email"
@@ -91,14 +91,14 @@ export const ContactUs = () => {
            Message
           </label>
           <textarea
-            className="appearance-none border transition-all duration-500 hover:scale-95  rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:border-copper"
+            className="appearance-none border  text-white bg-transparent  transition-all duration-500 hover:scale-95  rounded-xl w-full py-2 px-3  leading-tight focus:outline-none focus:border-copper"
             id="message"
             name="message"
           ></textarea>
         </div>
         <div className="mb-4">
           <input
-            className=" justify-center flex ml-4 transition-all duration-500 hover:scale-95 w-40  mt-4 hover:bg-copper py-2  text-white  rounded-xl border cursor-pointer"
+            className=" justify-center flex ml-4 bg-white transition-all duration-500 hover:scale-95 w-40  mt-4 hover:bg-copper py-2  text-gray-900  hover:text-white rounded-xl border cursor-pointer"
             type="submit"
             value="Send"
           />

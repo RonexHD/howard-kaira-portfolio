@@ -145,10 +145,10 @@ import {
                 <h1 className="text-white text-start text-2xl pb-1  ">Introduction to Cybersecurity  </h1>
               </div>
               <h3 className="text-sm  font-bold pb-4 ml-10 text-copper text-start"> Cisco Networking Academy </h3>
-              <div className=" flex gap-2">
+              <div className="  gap-2">
                 <a 
                 target="blank" 
-                className="h-36 w-36 transition-all duration-500 hover:scale-95" 
+                className=" transition-all duration-500 hover:scale-95" 
                 href="https://www.credly.com/badges/1fe31734-a7ed-4dd0-9e22-d0a523dee52c">
                   <img src={badge} alt="cisco-badge" className="" /> 
                 </a>
