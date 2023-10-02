@@ -20,6 +20,7 @@ import Experience from '../Components/Experience';
 import uchikumbe from '../Assets/uchikumbe cover.jpg'
 import infographix from '../Assets/infographics .jpg'
 import { Carousel } from '@material-tailwind/react';
+import { ContactUs } from './Contact';
 import bg from '../Assets/bg.jpg'
 import bg2 from '../Assets/bg2.jpg'
 
@@ -138,8 +139,13 @@ function Body() {
     
         </Carousel>
       </Fade>
+      
         
       </div>
+      <div className='w-full mb-4  mt-20 gap-2 lg:flex  justify-center flex-wrap border-t border-t-copper flex'>
+        <ContactUs />
+      </div>
+      
       <FloatSpeedDial />
     </div>
   );
